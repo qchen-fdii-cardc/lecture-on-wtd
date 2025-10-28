@@ -4,6 +4,11 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: chapter01/getting-started
+  sections:
+    - file: chapter01/concept
+    - file: chapter01/first-steps
+- file: chapter02/engineering
+- file: chapter03/proposal
+- file: chapter04/feasibility
+- file: chapter05/verification
