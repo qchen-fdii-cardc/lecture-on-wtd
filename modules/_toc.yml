@@ -3,12 +3,34 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: chapter01/getting-started
-  sections:
-    - file: chapter01/concept
-    - file: chapter01/first-steps
-- file: chapter02/engineering
-- file: chapter03/proposal
-- file: chapter04/feasibility
-- file: chapter05/verification
+parts:
+  - caption: 空气动力学试验及设备基础知识
+    numbered: true
+    chapters:
+    - file: part01/getting-started
+    - file: part01/concept
+    - file: part01/first-steps
+  - caption: 设备设计建设项目工程方法论
+    numbered: true
+    chapters:
+    - file: part02/engineering
+    - file: part02/cadquery
+    - file: part02/windtunnel-cad
+  - caption: 空气动力学试验设备立项论证
+    numbered: true
+    chapters:
+    - file: part03/proposal
+  - caption: 空气动力学试验设备可行性研究
+    numbered: true
+    chapters:  
+    - file: part04/feasibility
+  - caption: 空气动力学试验设备验收过程
+    numbered: true
+    chapters:
+    - file: part05/verification
+  - caption: Examples
+    numbered: true
+    chapters:
+    - file: markdown
+    - file: markdown-notebooks
+    - file: notebooks

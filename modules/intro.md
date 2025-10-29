@@ -10,8 +10,6 @@ Jupyter Book 是一个开源工具，可以用来创建包含 Jupyter 笔记本�
 
 ## 内容结构安排
 
-讲义内容结构如下：
-
 ```{tableofcontents}
 ```
 
