@@ -17,6 +17,7 @@ parts:
     - file: part02/engineering
     - file: part02/cadquery
     - file: part02/windtunnel-cad
+    - file: part02/setting-chamber
   - caption: 空气动力学试验设备立项论证
     numbered: true
     chapters:
