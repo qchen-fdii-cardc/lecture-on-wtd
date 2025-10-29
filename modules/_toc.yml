@@ -10,6 +10,7 @@ parts:
     - file: part01/getting-started
     - file: part01/concept
     - file: part01/first-steps
+    - file: part01/usage
   - caption: 设备设计建设项目工程方法论
     numbered: true
     chapters:
@@ -19,6 +20,7 @@ parts:
   - caption: 空气动力学试验设备立项论证
     numbered: true
     chapters:
+    - file: part03/getting-started
     - file: part03/proposal
   - caption: 空气动力学试验设备可行性研究
     numbered: true
