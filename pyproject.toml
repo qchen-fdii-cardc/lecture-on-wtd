@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "cadquery>=2.6.0",
     "coolprop>=7.1.0",
+    "ipympl>=0.9.8",
     "jupyter>=1.1.1",
     "jupyter-book>=1.0.4.post1",
     "matplotlib>=3.10.7",
@@ -14,4 +15,5 @@ dependencies = [
     "numpy>=2.3.4",
     "pandas>=2.3.3",
     "scipy>=1.16.2",
+    "sympy>=1.14.0",
 ]
