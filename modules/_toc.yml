@@ -15,29 +15,33 @@ parts:
     numbered: true
     chapters:
     - file: part02/engineering
+    - file: part02/sensitivity
+    - file: part02/optimization
     - file: part02/cadquery
     - file: part02/modeling
     - file: part02/dimensional-analysis
-    - file: part02/sensitivity
-    - file: part02/optimization
   - caption: 空气动力学试验设备立项论证
     numbered: true
     chapters:
     - file: part03/getting-started
     - file: part03/proposal
+    - file: part03/reynolds-number-and-wind-tunnel
     - file: part02/windtunnel-cad
     - file: part02/setting-chamber
   - caption: 空气动力学试验设备可行性研究
     numbered: true
     chapters:  
     - file: part04/feasibility
+    - file: part04/windtunnel
+    - file: part05/CFD
   - caption: 空气动力学试验设备验收过程
     numbered: true
     chapters:
     - file: part05/verification
-  - caption: Examples
-    numbered: true
-    chapters:
-    - file: markdown
-    - file: markdown-notebooks
-    - file: notebooks
+    - file: part05/mc
+  # - caption: Examples
+  #   numbered: true
+  #   chapters:
+  #   - file: markdown
+  #   - file: markdown-notebooks
+  #   - file: notebooks
