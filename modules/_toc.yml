@@ -11,6 +11,9 @@ parts:
     - file: part01/concept
     - file: part01/first-steps
     - file: part01/usage
+    - file: part01/python001
+    - file: part01/uv
+    - file: part01/jupyter
   - caption: 设备设计建设项目工程方法论
     numbered: true
     chapters:
