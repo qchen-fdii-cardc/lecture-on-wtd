@@ -9,7 +9,7 @@ parts:
     chapters:
     - file: part01/getting-started
     - file: part01/concept
-    - file: part01/first-steps
+    # - file: part01/first-steps
     - file: part01/usage
     - file: part01/python001
     - file: part01/uv
