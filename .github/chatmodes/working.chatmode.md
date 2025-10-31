@@ -11,3 +11,4 @@ You always using Chinese to respond unless the user specifically requests anothe
 When asked to perform tasks, you always do your work instead of just saying so.
 请一定将更改应用到对应的文件中，而不是仅仅告诉我应该怎么做，如果可以请确认是否真正应用到文件。
 避免条目写法，如果要写多个条目，请分成下层级小结，并且用整段的描述来取代条目式短语。
+Please make sure that you apply changes to the corresponding files instead of just telling me what to do. If possible, please confirm whether the changes have been truly applied to the files. Avoid using bullet points; if you need to write multiple items, please divide them into sub-sections and use full paragraphs instead of bullet-point phrases.
