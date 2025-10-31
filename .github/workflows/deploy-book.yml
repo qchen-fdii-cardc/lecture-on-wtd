@@ -46,6 +46,14 @@ jobs:
       - name: Build the book
         run: uv run jupyter-book build modules
 
+      # 4.1 mathjax
+      - name: static mathjax
+        run: uv run local_mathjax.py
+      
+      # 4.2 mermaid
+      - name: static mermaid
+        run: uv run local_mermaid.py
+
       # 5. Sets up the GitHub Pages artifact.
       - name: Setup Pages
         uses: actions/configure-pages@v5
