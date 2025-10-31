@@ -9,7 +9,7 @@ from urllib.parse import urlparse, urljoin
 HTML_DIR = Path('modules/_build/html')
 LOCAL_SCRIPTS_DIR = HTML_DIR / '_static' / 'scripts'
 SOURCE_CDN = "cdn.jsdelivr.net"
-DOWNLOAD_CDN = "s4.zstatic.net"
+DOWNLOAD_CDN = "cdn.jsdelivr.net"  # s4.zstatic.net
 MATHJAX_BASE_PATH = "/npm/mathjax@3/es5/"
 FONT_DIR_PATH = "output/chtml/fonts/woff-v2/"
 MATHJAX_FONTS = [

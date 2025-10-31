@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 HTML_DIR = Path('modules/_build/html')
 LOCAL_SCRIPTS_DIR = HTML_DIR / '_static' / 'scripts'
 SOURCE_CDN = "cdn.jsdelivr.net"
-DOWNLOAD_CDN = "s4.zstatic.net"
+DOWNLOAD_CDN = "cdn.jsdelivr.net"  # "s4.zstatic.net"
 
 # --- Helper Functions ---
 
