@@ -36,7 +36,8 @@ parts:
     chapters:  
     - file: part04/feasibility
     - file: part04/windtunnel
-    - file: part05/CFD
+    - file: part04/CFD
+    - file: part04/CFD-WAD
   - caption: 空气动力学试验设备验收过程
     numbered: true
     chapters:
