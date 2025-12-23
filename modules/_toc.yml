@@ -42,6 +42,7 @@ parts:
     numbered: true
     chapters:
     - file: part05/verification
+    - file: part05/gjb1179A
     - file: part05/mc
   # - caption: Examples
   #   numbered: true
