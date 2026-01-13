@@ -36,6 +36,10 @@ jobs:
         uses: yezz123/setup-uv@v4
         with:
           uv-version: '0.7.5'
+      
+      # 3.-1 Font
+      - name: Install fonts-noto-cjk
+        run: apt install fonts-noto-cjk
 
       # 3. Installs the project dependencies from pyproject.toml using uv.
       - name: Install dependencies with uv
